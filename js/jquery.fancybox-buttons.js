@@ -66,7 +66,7 @@
 					play   : this.list.find('.btnPlay').click( F.play ),
 					toggle : this.list.find('.btnToggle').click( F.toggle ),
 					close  : this.list.find('.btnClose').click( F.close )
-				}
+				};
 			}
 
 			//Prev

@@ -99,3 +99,10 @@ function debounce( fn, threshold ) {
   return CellsByRow;
 
 }));
+
+$(document).ready(function() {
+  $(".fancybox").fancybox({
+  maxWidth: 10000,
+  margin: 80
+  });
+});
